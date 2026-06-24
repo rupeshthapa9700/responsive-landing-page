@@ -34,5 +34,29 @@ ul a:hover{
     color: blue;
 }
 nav button:hover{
-    opacity: 0.8;;
+    opacity: 0.8;
+}
+#hero{
+    padding: 80px 50px;
+}
+#hero h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+#hero p{
+    max-width: 600px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}   
+#hero button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#hero button:hover{
+    opacity: 0.8;
 }
