@@ -60,3 +60,38 @@ nav button:hover{
 #hero button:hover{
     opacity: 0.8;
 }
+
+#hero{
+    padding: 80px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.hero-content{
+    flex: 1;
+}
+.hero-image{
+    flex: 1;
+}
+.hero-image img{
+    width: 100%;
+    max-width: 500px;
+}
+#features{
+    padding: 80px 50px;
+}
+#features h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feature-cards{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 10px;
+}
