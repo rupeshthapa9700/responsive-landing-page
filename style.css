@@ -43,9 +43,7 @@
     nav button:hover{
         opacity: 0.8;    
     }
-    #hero{
-        padding: 80px 50px;
-    }
+
     #hero h2{
         font-size: 48px;
         margin-bottom: 20px;
