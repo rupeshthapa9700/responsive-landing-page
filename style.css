@@ -196,7 +196,7 @@ input:focus, textarea:focus{
 
 .contact-form button{
     width: 100%;
-    background-color: #2a2a2a;
+    background-color: black;
     color: white;
     border-radius: 10px;
     padding: 12px;
