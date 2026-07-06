@@ -16,6 +16,9 @@ header{
   top: 0;
   background: white;
 }
+.menu-btn{
+  display: none;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -289,6 +292,9 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
+  .menu-btn{
+    display: block;
+  }
   nav {
     flex-direction: column;
     gap: 20px;
@@ -297,6 +303,10 @@ footer a:hover {
   nav ul {
     flex-direction: column;
     align-items: center;
+    display: none;
+  }
+  nav button{
+    display: none;
   }
   #hero {
     flex-direction: column;
