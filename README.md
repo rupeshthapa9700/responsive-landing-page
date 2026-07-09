@@ -15,3 +15,13 @@ A modern responsive landing page built using HTML, CSS, and JavaScript.
 - HTML5
 - CSS3
 - JavaScript
+
+## Screenshots
+
+### Desktop View
+
+![Desktop Screenshot](screenshots/desktop.png)
+
+### Mobile View
+
+![Mobile Screenshot](screenshots/mobile.png)
