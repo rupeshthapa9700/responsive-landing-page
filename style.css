@@ -292,42 +292,42 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-  nav{
-        flex-direction: row;
-        justify-content: space-between;
-        position: relative;
-    }
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+  }
 
-    .menu-btn{
-        display:block;
-        background:black;
-        color:white;
-        border:none;
-        padding:10px 15px;
-        border-radius:5px;
-        cursor:pointer;
-    }
+  .menu-btn {
+    display: block;
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
 
-    .nav-btn{
-        display:none;
-    }
+  .nav-btn {
+    display: none;
+  }
 
-    .nav-links{
-        display:none;
-        position:absolute;
-        top:70px;
-        left:0;
-        width:100%;
-        background:white;
-        flex-direction:column;
-        align-items:center;
-        padding:20px;
-        gap:20px;
-    }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+  }
 
-    .nav-links.active{
-        display:flex;
-    }
+  .nav-links.active {
+    display: flex;
+  }
   #hero {
     flex-direction: column;
     align-items: center;

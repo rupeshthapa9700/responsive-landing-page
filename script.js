@@ -29,29 +29,22 @@ startBauttons.forEach((button) => {
   });
 });
 
-
 //FORM VALIDATION
 
 const contactForm = document.querySelector("#contactForm");
 
-
 contactForm.addEventListener("submit", (event) => {
+  event.preventDefault();
 
-    event.preventDefault();
+  const name = document.querySelector("#name").value;
+  const email = document.querySelector("#email").value;
+  const subject = document.querySelector("#subject").value;
+  const message = document.querySelector("#message").value;
 
-
-    const name = document.querySelector("#name").value;
-    const email = document.querySelector("#email").value;
-    const subject = document.querySelector("#subject").value;
-    const message = document.querySelector("#message").value;
-
-
-    if(name === "" || email === "" || subject === "" || message === ""){
-        alert("Please fill all fields!");
-    }
-    else{
-        alert("Message sent successfully! 🚀");
-        contactForm.reset();
-    }
-
+  if (name === "" || email === "" || subject === "" || message === "") {
+    alert("Please fill all fields!");
+  } else {
+    alert("Message sent successfully! 🚀");
+    contactForm.reset();
+  }
 });
